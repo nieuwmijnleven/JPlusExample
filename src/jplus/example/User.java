@@ -1,8 +1,10 @@
 package jplus.example;
 
 class User {
-    String name;        // Name is required
-    Address address;   // Address can be null
+    // Name is required
+    String name;
+    // Address can be null
+    Address address;
 
     User(String name, Address address) {
         this.name = name;
@@ -39,4 +41,5 @@ class User {
         System.out.println(user2.getDisplayName() + "'s city: " + user2.getCity()); // Jane Smith's city: No Address
         System.out.println(user3.getDisplayName() + "'s city: " + user3.getCity()); // No Name's city: No Address
     }
+
 }
